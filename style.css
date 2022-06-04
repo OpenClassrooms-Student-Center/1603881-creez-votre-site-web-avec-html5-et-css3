@@ -1,7 +1,24 @@
+body { 
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+}
+
 a {
     color: black;
+    text-decoration: none;
 }
 
 .highlight {
     color: #A5B4FC;
+}
+
+h1 {
+    font-size: 3.5em;
+    color: #A5B4FC;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 1.1em;
 }
