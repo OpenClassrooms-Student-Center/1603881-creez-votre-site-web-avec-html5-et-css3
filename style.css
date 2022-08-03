@@ -9,8 +9,9 @@ a {
   text-decoration: none;
 }
 
-.important {
+em {
   color: #a5b4fc;
+  font-style: normal;
 }
 
 h1 {
