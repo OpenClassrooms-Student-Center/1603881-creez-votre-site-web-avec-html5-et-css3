@@ -2,6 +2,7 @@ body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
   background-color: #1f2039;
+  margin: 0;
 }
 
 a {
@@ -33,12 +34,14 @@ li {
 header,
 footer {
   background-color: white;
+  padding: 20px 50px;
 }
 
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
+  padding: 20px 30px;
 }
 
 a:hover {
@@ -57,4 +60,14 @@ a:hover {
 .carre-contenu {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+}
+
+main {
+  padding: 80px;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
 }
