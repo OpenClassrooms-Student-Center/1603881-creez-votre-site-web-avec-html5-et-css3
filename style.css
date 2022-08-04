@@ -66,6 +66,14 @@ a:hover {
   padding: 50px;
 }
 
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+
+.carre-contenu ul {
+  margin-top: 30px;
+}
+
 section {
   padding: 80px;
 }
