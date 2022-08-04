@@ -54,6 +54,10 @@ a:hover {
   text-decoration: none;
 }
 
+.lien-icone {
+  margin-left: 30px;
+}
+
 .lien-icone:hover {
   opacity: 0.5;
 }
@@ -64,7 +68,7 @@ a:hover {
   padding: 50px;
 }
 
-main {
+section {
   padding: 80px;
 }
 
@@ -79,4 +83,35 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+nav a {
+  margin-left: 30px;
+}
+
+.accueil-photos {
+  background-color: white;
+  padding: 80px;
+}
+
+.accueil-photos h2 {
+  color: #242424;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.accueil-photos div {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.accueil-introduction {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  align-items: center;
+  margin: auto;
 }
