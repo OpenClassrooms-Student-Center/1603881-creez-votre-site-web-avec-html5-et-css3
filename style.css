@@ -1,8 +1,11 @@
+* {
+  margin: 0;
+}
+
 body {
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
   background-color: #1f2039;
-  margin: 0;
 }
 
 a {
@@ -63,7 +66,7 @@ a:hover {
   padding: 50px;
 }
 
-main {
+section {
   padding: 80px;
 }
 
