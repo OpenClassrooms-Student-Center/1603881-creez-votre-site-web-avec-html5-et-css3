@@ -125,3 +125,12 @@ nav a {
   align-items: center;
   margin: auto;
 }
+
+.portfolio-section-photos {
+  background-color: white;
+}
+
+.portfolio-section-photos h2 {
+  color: #242424;
+  margin-bottom: 80px;
+}
