@@ -134,3 +134,10 @@ nav a {
   color: #242424;
   margin-bottom: 80px;
 }
+
+.grid-paysages img,
+.grid-portraits img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
