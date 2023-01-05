@@ -2,38 +2,44 @@ body {
     /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
     font-family: 'Manrope', sans-serif;
     font-size: 1em;
+    background-color : #1F2039 ;
   }
-
-a{
-    color:black;
-    font-family:'Manrope';
-    font-size: 1em;
-    text-decoration:none;
-
-}
-
-em {
+  
+  a {
+    color: #242424;
+    text-decoration: none;
+  }
+  
+  em {
     color: #a5b4fc;
     font-style: normal;
   }
-
-span{
-    color:#A5B4FC;
-}
-
-h1{
-    font-family: 'Montserrat', sans-serif;
-    color:#A5B4FC;
+  
+  h1 {
     font-size: 3.5em;
-}
-
-p{
-    font-family: 'Manrope'; 
+    color: #a5b4fc;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  p {
     font-size: 1.1em;
-}
+  }
 
-ul{
-    font-family:'Manrope';
-    font-size:1em
-}
+  .liens{
+    background-color: white;
+  }
 
+  p, h2, ul{
+color:#f9f8ff
+  }
+
+.CTA{
+    background: linear-gradient(90deg, #8E86B5, #ACAEED);
+    color:white;
+    border-radius: 50px;
+  }
+
+.carre{
+border-right:  1px solid #A5B4FC;
+border-bottom:  1px solid #A5B4FC;
+  }
