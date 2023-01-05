@@ -2,10 +2,15 @@ body {
   /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
+  background-color:#1F2039;
+  color: #F9F8FF;
 }
 
+.div{
+  background-color: blanc;
+}
 a {
-  color: black;
+  color:#242424;
   text-decoration: none;
 }
 
@@ -22,4 +27,10 @@ h1 {
 
 p {
   font-size: 1.1em;
+}
+
+.liensdegrad{
+background: linear-gradient(90deg #8E86B5,#ACAEED);
+color: blanc;
+font-family:'Montserrat'sans-serif;
 }
