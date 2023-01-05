@@ -1,7 +1,39 @@
+body {
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+  }
+
 a{
     color:black;
+    font-family:'Manrope';
+    font-size: 1em;
+    text-decoration:none;
+
 }
+
+em {
+    color: #a5b4fc;
+    font-style: normal;
+  }
 
 span{
     color:#A5B4FC;
 }
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color:#A5B4FC;
+    font-size: 3.5em;
+}
+
+p{
+    font-family: 'Manrope'; 
+    font-size: 1.1em;
+}
+
+ul{
+    font-family:'Manrope';
+    font-size:1em
+}
+
