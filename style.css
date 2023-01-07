@@ -1,58 +1,83 @@
+* {
+  margin: 0;
+}
+
 body {
-    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
-    font-family: 'Manrope', sans-serif;
-    font-size: 1em;
-    background-color : #1F2039 ;
-  }
-  
+  font-family: 'Manrope', sans-serif;
+  font-size: 1em;
+  background-color: #1f2039;
+}
+
 a {
-    color: #242424;
-    text-decoration: none;
-  }
-  
+  color: #242424;
+  text-decoration: none;
+}
+
 em {
   color: #a5b4fc;
   font-style: normal;
 }
-  
+
 h1 {
   font-size: 3.5em;
   color: #a5b4fc;
   font-family: 'Montserrat', sans-serif;
 }
-  
-p {
+
+h2 {
+  color: #f9f8ff;
+}
+
+p,
+li {
   font-size: 1.1em;
+  color: #f9f8ff;
 }
 
-header, footer{
+header,
+footer {
   background-color: white;
+  padding: 20px 50px;
 }
 
-p, h2, ul{
-color:#f9f8ff;
+.cta {
+  background: linear-gradient(#8e86b5, #acaeed);
+  color: white;
+  border-radius: 50px;
 }
 
-.CTA{
-    background: linear-gradient(90deg, #8E86B5, #ACAEED);
-    color:white;
-    border-radius: 50px;
-  }
-
-.carre{
-border-right:  1px solid #A5B4FC;
-border-bottom:  1px solid #A5B4FC;
-  }
-
-a:hover{
+a:hover {
   text-decoration: underline;
-}  
-
-.CTA:hover{
-  text-decoration: none;
-  background: linear-gradient(90deg,#696484,#8788BA);
 }
 
-.logos:hover{
-  opacity:0.5;
+.cta:hover {
+  background: linear-gradient(#696484, #8788ba);
+  text-decoration: none;
+}
+
+.lien-icone:hover {
+  opacity: 0.5;
+}
+
+.carre-contenu {
+  border-right: 1px solid #8e86b5;
+  border-bottom: 1px solid #8e86b5;
+  padding: 50px;
+}
+
+.carre-contenu h2 {
+  margin-top: 30px;
+}
+
+.carre-contenu ul {
+  margin-top: 30px;
+}
+
+section {
+  padding: 80px;
+}
+
+.a-propos-main {
+  width: 50%;
+  margin: auto;
 }
