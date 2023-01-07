@@ -5,33 +5,33 @@ body {
     background-color : #1F2039 ;
   }
   
-  a {
+a {
     color: #242424;
     text-decoration: none;
   }
   
-  em {
-    color: #a5b4fc;
-    font-style: normal;
-  }
+em {
+  color: #a5b4fc;
+  font-style: normal;
+}
   
-  h1 {
-    font-size: 3.5em;
-    color: #a5b4fc;
-    font-family: 'Montserrat', sans-serif;
-  }
+h1 {
+  font-size: 3.5em;
+  color: #a5b4fc;
+  font-family: 'Montserrat', sans-serif;
+}
   
-  p {
-    font-size: 1.1em;
-  }
+p {
+  font-size: 1.1em;
+}
 
-  .liens{
-    background-color: white;
-  }
+header, footer{
+  background-color: white;
+}
 
-  p, h2, ul{
-color:#f9f8ff
-  }
+p, h2, ul{
+color:#f9f8ff;
+}
 
 .CTA{
     background: linear-gradient(90deg, #8E86B5, #ACAEED);
@@ -43,3 +43,16 @@ color:#f9f8ff
 border-right:  1px solid #A5B4FC;
 border-bottom:  1px solid #A5B4FC;
   }
+
+a:hover{
+  text-decoration: underline;
+}  
+
+.CTA:hover{
+  text-decoration: none;
+  background: linear-gradient(90deg,#696484,#8788BA);
+}
+
+.logos:hover{
+  opacity:0.5;
+}
