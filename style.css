@@ -136,9 +136,24 @@ nav a {
 }
 
 .grid-paysages img,
-.grid-portraits img {
+.grid-portrait img {
   width: 100%;
   height: 100%;
   /* Même si vous ne connaissez pas cette propriété, vous en aurez besoin pour permettre aux images de respecter les dimensions de la grid CSS */
   object-fit: cover;
 }
+
+.grid-paysages{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px ;
+  gap: 15px;
+}
+
+.grid-portrait{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px;
+  gap: 15px;
+}
+
