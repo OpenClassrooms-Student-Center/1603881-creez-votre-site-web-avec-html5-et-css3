@@ -2,9 +2,11 @@
 <html lang="fr">
 
 <head>
-    <meta charset="utf-8" >
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Robbie Lens Photographie</title>
-    <link href="style.css" rel="stylesheet" >
+    <link href="assets/css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&display=swap" rel="stylesheet">
@@ -13,36 +15,50 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo.png" alt="Logo Robbie Lens" >
-            <a href="index.html">Accueil</a>
-            <a href="a-propos.html">À propos</a>
+            <img src="assets/images/logo.png" alt="Logo Robbie Lens">
+            <div>
+                <a href="index.html">Accueil</a>
+                <a href="a-propos.html">À propos</a>
+            </div>
         </nav>
     </header>
     <main>
-        <section>
-            <h1>Robbie Lens Photographie</h1>
-            <p>
-                Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
-                plus de 5 ans maintenant, j’exerce mon métier avec la passion
-                qui m’anime : capturer l’essence de chaque instant.
-            </p>
-            <img src="images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens" >
+        <section class="home-intro">
             <div>
+                <h1>Robbie Lens Photographie</h1>
+                <p>
+                    Où <em>professionalisme</em> s’allie avec <em>passion</em>. Depuis
+                    plus de 5 ans maintenant, j’exerce mon métier avec la passion
+                    qui m’anime : capturer l’essence de chaque instant.
+                </p>
                 <a href="" class="cta">UN PROJET ? ÉCRIVEZ-MOI</a>
             </div>
+            <img src="assets/images/robbie-lens.png" alt="Portrait avec effet de la photographe Robbie Lens">
         </section>
-        <section>
+        <section class="home-project">
             <h2>Mon dernier projet</h2>
+            <div>
+                <img src="assets/images/accueil/element-1.png" alt="">
+                <img src="assets/images/accueil/element-2.png" alt="">
+                <img src="assets/images/accueil/element-3.png" alt="">
+            </div>
+            <div>
+                <img src="assets/images/accueil/element-4.png" alt="">
+                <img src="assets/images/accueil/element-5.png" alt="">
+                <img src="assets/images/accueil/element-6.png" alt="">
+            </div>
         </section>
     </main>
     <footer>
-        <img src="images/logo.png" alt="Logo Robbie Lens" >
-        <a target="_blank" href="https://twitter.com/" class="lien-icone">
-            <img src="images/twitter.png" alt="Logo Twitter" >
-        </a>
-        <a target="_blank" href="https://www.instagram.com/" class="lien-icone">
-            <img src="images/instagram.png" alt="Logo Instagram" >
-        </a>
+        <img src="assets/images/logo.png" alt="Logo Robbie Lens">
+        <div>
+            <a target="_blank" href="https://twitter.com/" rel="noopener" class="icon-link">
+                <img src="assets/images/twitter.png" alt="Logo Twitter">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/" rel="noopener" class="icon-link">
+                <img src="assets/images/instagram.png" alt="Logo Instagram">
+            </a>
+        </div>
     </footer>
 </body>
 

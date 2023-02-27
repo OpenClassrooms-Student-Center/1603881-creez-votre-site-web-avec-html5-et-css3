@@ -3,7 +3,7 @@
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 1em;
   background-color: #1f2039;
 }
@@ -21,7 +21,7 @@ em {
 h1 {
   font-size: 3.5em;
   color: #a5b4fc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 h2 {
@@ -40,6 +40,17 @@ footer {
   padding: 20px 50px;
 }
 
+nav,
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    margin: 30px;
+  }
+}
+
 .cta {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
@@ -56,21 +67,21 @@ a:hover {
   text-decoration: none;
 }
 
-.lien-icone:hover {
+.icon-link:hover {
   opacity: 0.5;
 }
 
-.carre-contenu {
+.square-content {
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
   padding: 50px;
 }
 
-.carre-contenu h2 {
+.square-content h2 {
   margin-top: 30px;
 }
 
-.carre-contenu ul {
+.square-content ul {
   margin-top: 30px;
 }
 
@@ -78,7 +89,32 @@ section {
   padding: 80px;
 }
 
-.a-propos-main {
+.about-main {
   width: 50%;
   margin: auto;
+}
+
+.home-intro {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+}
+
+.home-project {
+  background-color: white;
+  // padding: 80px;
+  h2 {
+    color: #000000;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    margin-bottom: 16px;
+    justify-content: center;
+  }
 }
