@@ -18,11 +18,7 @@ h1{
     font-family: Montserrat;
     }
 
-p{
-    font-size: 1.1em;
-    font-family: Manrope, sans-serif;
-    color:#F9F8FF;
-}
+
 
 nav{
     font-size: 1em;
@@ -32,7 +28,10 @@ nav{
 }
 
 section{
-    background: #1f2039;  /* fallback for old browsers */
+    background: #1f2039;
+    font-size: 1.1em;
+    font-family: Manrope, sans-serif;
+    color:#F9F8FF;  /* fallback for old browsers */
 
 }
 
