@@ -66,3 +66,7 @@ header a:hover{
 a img:hover{
     opacity: 0.5;
 }
+
+.liens_reseaux_sociaux{
+    text-align: right;
+}
