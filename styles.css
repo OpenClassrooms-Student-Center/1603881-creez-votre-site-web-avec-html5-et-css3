@@ -31,12 +31,13 @@ section{
     background: #1f2039;
     font-size: 1.1em;
     font-family: Manrope, sans-serif;
-    color:#F9F8FF;  /* fallback for old browsers */
-
+    color:#F9F8FF; 
+    padding: 80px 80px;
 }
 
 header, footer{
-     background-color: whitesmoke;/*choix d'une couleur de fond pour les balises footer et header*/
+     background-color: whitesmoke;
+     padding:  20px 50px 20px 50px;/*choix d'une couleur de fond pour les balises footer et header*/
 }
 /*la classe "poney" est liée avec les liens "Un projet ? Ecrivez-moi" et "Voir mon potfolio"*/
 .poney{
@@ -48,10 +49,13 @@ header, footer{
     color: blanchedalmond;
     padding: 25px;
 }
-/* la classe "fringant" est liée avec "A propos ... Services" dans "a-propos.html" */
+/* la classe "fringant" <==> "carre-contenu" */
 .fringant{
     border-right: 5px solid #8e86b5;
     border-bottom: 5px solid #8e86b5;
+    padding: 50px ;
+    text-align: center;
+}
 }
 
 .poney:hover{
@@ -69,4 +73,28 @@ a img:hover{
 
 .liens_reseaux_sociaux{
     text-align: right;
+    width: 25%;
+    background-color: brown;
+}
+.fringant h2, ul{
+    margin-top: 70px;
+}
+
+.fringant li, p{
+    text-align:left;    
+}
+
+.fringant ul, .fringant p{
+    background-color: red;
+    width: 66%;
+    margin-left: 150px;
+}
+
+footer img{
+    background-color: blue;
+    width: 25%;
+}
+
+footer{
+    background-color: yellow;
 }
