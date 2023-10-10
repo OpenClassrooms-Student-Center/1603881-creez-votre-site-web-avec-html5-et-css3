@@ -1,0 +1,109 @@
+em{
+    color :#8995d4;
+    font-family: "roboto", sans-serif;
+    font-style: normal;
+}
+
+a{
+    font-size: 1em;
+    color: #242424;
+    font-family: Manrope;
+     text-decoration: none;
+}
+
+
+h1{
+    font-size: 3.5em;
+    color: #a5b4fc;
+    font-family: Montserrat;
+    }
+
+
+
+nav{
+    font-size: 1em;
+    
+    font-family: Manrope, sans-serif;
+   
+}
+
+section{
+    background: #1f2039;
+    font-size: 1.1em;
+    font-family: Manrope, sans-serif;
+    color:#F9F8FF; 
+    padding: 80px 80px;
+}
+
+header, footer{
+     background-color: whitesmoke;
+     padding:  20px 50px 20px 50px;/*choix d'une couleur de fond pour les balises footer et header*/
+}
+/*la classe "poney" est liée avec les liens "Un projet ? Ecrivez-moi" et "Voir mon potfolio"*/
+.poney{
+    font-size: 2m;
+    color: hwb(177 40% 37%);
+    border: 5px solid burlywood;
+    border-radius: 50px;
+    background-color: #9d9ad1;
+    color: blanchedalmond;
+    padding: 25px;
+}
+/* la classe "fringant" <==> "carre-contenu" */
+.fringant{
+    border-right: 5px solid rgba(177, 175, 54, 0.912); /* #8e86b5; */
+    border-bottom: 5px solid rgb(161, 139, 62); 
+    padding: 50px ;
+    width: 50%;
+    margin: 0 auto;
+}
+
+
+.poney:hover{
+    background: linear-gradient(90deg, #696484, #8788BA);
+    text-decoration: none;
+}
+
+header a:hover{
+    opacity: 0.5;
+}
+
+a img:hover{
+    opacity: 0.5;
+}
+
+.liens_reseaux_sociaux{
+    text-align: right;
+    width: 25%;
+    background-color: brown;
+}
+.fringant h2, ul{
+    margin-top: 70px;
+}
+
+.fringant li, p{
+    text-align:left;    
+}
+
+.fringant ul, .fringant p{
+    background-color: red;
+    width: 66%;
+    
+}
+
+footer img{
+    background-color: blue;
+    width: 25%;
+}
+
+footer{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+main{
+    background: #1f2039; 
+    display: flex; 
+    flex-direction: column; 
+}
