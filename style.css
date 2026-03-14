@@ -10,8 +10,9 @@ a {
 }
 
 
-.important {
+em {
     color: #a5b4fc;
+    font-style: normal;
 }
 
 p {
@@ -19,7 +20,8 @@ p {
 }
 
 h1 {
-    font-family: "Montserrat", cursive;
+    font-family: "Montserrat", sans-serif;
+    color: #A5B4FC;
     font-size: 3.5em;
 }
 
