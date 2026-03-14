@@ -1,11 +1,12 @@
 body {
-  /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
-  font-family: 'Manrope', sans-serif;
-  font-size: 1em;
+    /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
+    font-family: 'Manrope', sans-serif;
+    font-size: 1em;
+    background-color: #1F2039;
 }
 
 a {
-    color: black;
+    color: #242424;
     text-decoration: none;
 }
 
@@ -15,8 +16,10 @@ em {
     font-style: normal;
 }
 
-p {
+p,
+li {
     font-size: 1.1em;
+    color: #F9F8FF;
 }
 
 h1 {
@@ -25,7 +28,15 @@ h1 {
     font-size: 3.5em;
 }
 
+h2 {
+    color: #F9F8FF;
+}
+
 .introduction {
     font-weight: 700;
     text-decoration: underline;
+}
+
+.entete, .pied-de-page {
+    background-color: white;
 }
