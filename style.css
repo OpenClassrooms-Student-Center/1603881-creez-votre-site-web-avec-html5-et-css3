@@ -1,7 +1,32 @@
 a {
-  color: black;
+    color: black;
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+    text-decoration: none;
 }
 
+
 .important {
-  color: #a5b4fc;
+    color: #a5b4fc;
+}
+
+p {
+    font-family: "Manrope", sans-serif;
+    font-size: 1.1em;
+}
+
+li {
+    font-family: "Manrope", sans-serif;
+    font-size: 1em;
+}
+
+h1 {
+    font-family: "Montserrat", cursive;
+    font-size: 3.5em;
+    text-align: left;
+}
+
+.introduction {
+    font-weight: 700;
+    text-decoration: underline;
 }
